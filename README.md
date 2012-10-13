@@ -10,19 +10,19 @@ Because when you can get an ARM powered picture frame that boots Linux with ZERO
 ### Get it
 
     git clone git://github.com/Xalior/DF3120.git DF3120
+    cd DF3120
 
+### Get our dependancies
+
+    ./scripts/init.sh
+    ./scripts/bootstrap.sh
+    
 ### Build it
 
-	./create
+	./scripts/build.sh
 
-### Use it
-
-At any point after building you can, from the parent directory...
-
-	source ./DF3120/run
-	
 ## Where can I find out more?
 Documentation is in progress at [D's Website](http://www.rimron.co.uk/DF3120)
 
-
-	/minifs/ folder forked from http://oomz.net/git/minifs.git
+	/minifs/ sub-module from https://github.com/buserror-uk/minifs/
+    [Repuposes Linux](https://sites.google.com/site/repurposelinux/df3120)
